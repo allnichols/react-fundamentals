@@ -24,18 +24,16 @@ const Box = ({children, ...props}) => {
   )
 }
 
-console.log(largeBox)
-
 function App() {
   return (
     <div>
-      <Box className="box box--small" style={{backgroundColor: 'lightblue'}}>
+      <Box className="box box--small" style={{backgroundColor: 'lightblue', fontStyle: 'italic'}}>
         Small custom lightblue box
       </Box>
-      <Box className="box box--medium" style={{backgroundColor: 'pink'}}>
+      <Box className="box box--medium" style={{backgroundColor: 'pink', fontStyle: 'italic'}}>
         Medium custom pink box
       </Box>
-      <Box className="box box--large" style={{backgroundColor: 'orange'}}>
+      <Box className="box box--large" style={{backgroundColor: 'orange', fontStyle: 'italic'}}>
         Large custom orange box
       </Box>
     </div>
